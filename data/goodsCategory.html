@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品列表数据</title>
+    <script>
+        var arr = [
+            { 
+                id:"gc_0",
+                title:"冰箱",
+                leftChild:[
+                    {
+                        id:"gcl_00",
+                         title:"单门",
+                         img:"images/danmen.jpg",
+                    },
+                    {
+                        
+                        id:"gcl_01",
+                        title:"两门",
+                        img:"images/liamen.jpg",
+                    },
+                    {
+                            
+                        id:"gcl_02",
+                        title:"三门",
+                        img:"images/sanmen.jpg",
+                    },
+                    {
+           
+                        id:"gcl_03",
+                        title:"多门",
+                        img:"images/duomen.jpg",
+                    },
+                    {
+                        
+                        id:"gcl_04",
+                        title:"对开",
+                        img:"images/duikai.jpg",
+                    },
+                    {
+                           
+                        id:"gcl_05",
+                        title:"干湿分储",
+                        img:"images/ganshi.jpg",
+                    }
+                ],
+                rightChild:[
+                    {
+                        id:"gcr_00",
+                        desc:"BCD-470WDPG 470升十字对开",
+                        pirce:"￥4399",
+                        img:"images/gdsl1.jpg",
+                        preferential:"",
+
+                    },
+                    {
+                        id:"gcr_01",
+                        desc:"BCD-258WDVLU1",
+                        pirce:"￥2799",
+                        img:"images/gdsl2.jpg",
+                        preferential:"",
+
+                    },
+                    {
+                        id:"gcr_02",
+                        desc:"BCD-642WDVMU1 642升变频",
+                        pirce:"￥3799",
+                        img:"images/gdsl3.jpg",
+                        preferential:"",
+
+                    },
+                    {
+                        id:"gcr_03",
+                        desc:"BCD-458WDVMU1 458升风冷",
+                        pirce:"￥3699",
+                        img:"images/gdsl4.jpg",
+                        preferential:"",
+
+                    },
+                ],
+
+            },
+            { 
+                id:"gc_1",
+                title:"空调",
+                leftChild:[
+                    {
+                        id:"gcl_10",
+                         title:"壁挂式空调",
+                         img:"images/gdsr21.jpg",
+                    },
+                    {
+                        
+                        id:"gcl_11",
+                        title:"柜式空调",
+                        img:"images/gdsr22.jpg",
+                    },
+                    {
+                            
+                        id:"gcl_12",
+                        title:"空气类产品",
+                        img:"images/gdsr23.jpg",
+                    },
+                    {
+           
+                        id:"gcl_13",
+                        title:"柜机",
+                        img:"images/gdsr24.jpg",
+                    },
+                  
+                ],
+                rightChild:[
+                    {
+                        id:"gcr_10",
+                        desc:"BCD-470WDPG 470升十字对开",
+                        pirce:"￥4399",
+                        img:"images/gdsl11.jpg",
+                        preferential:"",
+
+                    },
+                    {
+                        id:"gcr_11",
+                        desc:"BCD-258WDVLU1",
+                        pirce:"￥2799",
+                        img:"images/gdsl12.jpg",
+                        preferential:"",
+
+                    },
+                    {
+                        id:"gcr_12",
+                        desc:"BCD-642WDVMU1 642升变频",
+                        pirce:"￥3799",
+                        img:"images/gdsl13.jpg",
+                        preferential:"",
+
+                    },
+                    {
+                        id:"gcr_13",
+                        desc:"BCD-458WDVMU1 458升风冷",
+                        pirce:"￥3699",
+                        img:"images/gdsl14.jpg",
+                        preferential:"",
+
+                    },
+                ],
+
+            },
+            { 
+                id:"gc_2",
+                title:"洗衣机",
+                leftChild:[
+                    {
+                        id:"gcl_20",
+                         title:"滚筒",
+                         img:"images/gdsr31.jpg",
+                    },
+                    {
+                        
+                        id:"gcl_21",
+                        title:"波轮",
+                        img:"images/gdsr32.jpg",
+                    },
+                    {
+                            
+                        id:"gcl_22",
+                        title:"双通",
+                        img:"images/gdsr33.jpg",
+                    },
+                    {
+           
+                        id:"gcl_23",
+                        title:"mini",
+                        img:"images/gdsr34.jpg",
+                    },
+                    {
+                        
+                        id:"gcl_24",
+                        title:"免清洗",
+                        img:"images/gdsr35.jpg",
+                    },
+                ],
+                rightChild:[
+                    {
+                        id:"gcr_20",
+                        desc:"BCD-470WDPG 470升十字对开",
+                        pirce:"￥4399",
+                        img:"images/gdsl111.jpg",
+                        preferential:"",
+
+                    },
+                    {
+                        id:"gcr_21",
+                        desc:"BCD-258WDVLU1",
+                        pirce:"￥2799",
+                        img:"images/gdsl121.jpg",
+                        preferential:"",
+
+                    },
+                    {
+                        id:"gcr_22",
+                        desc:"BCD-642WDVMU1 642升变频",
+                        pirce:"￥3799",
+                        img:"images/gdsl131.jpg",
+                        preferential:"",
+
+                    },
+                    {
+                        id:"gcr_23",
+                        desc:"BCD-458WDVMU1 458升风冷",
+                        pirce:"￥3699",
+                        img:"images/gdsl141.jpg",
+                        preferential:"",
+
+                    },
+                ],
+
+            },
+            { 
+                id:"gc_3",
+                title:"电视",
+                leftChild:[
+                    {
+                        id:"gcl_30",
+                         title:"智能电视",
+                         img:"images/gdsr41.jpg",
+                    },
+                    {
+                        
+                        id:"gcl_31",
+                        title:"LED显示屏",
+                        img:"images/gdsr42.jpg",
+                    },
+                    {
+                            
+                        id:"彩色电视",
+                        title:"三门",
+                        img:"images/gdsr43.jpg",
+                    },
+                    
+                ],
+                rightChild:null
+
+            },
+            { 
+                id:"gc_4",
+                title:"冰箱",
+                leftChild:[
+                    {
+                        id:"gcl_40",
+                         title:"单门",
+                         img:"images/danmen.jpg",
+                    },
+                    {
+                        
+                        id:"gcl_41",
+                        title:"两门",
+                        img:"images/liamen.jpg",
+                    },
+                    {
+                            
+                        id:"gcl_42",
+                        title:"三门",
+                        img:"images/sanmen.jpg",
+                    },
+                    {
+           
+                        id:"gcl_43",
+                        title:"多门",
+                        img:"images/duomen.jpg",
+                    },
+                    {
+                        
+                        id:"gcl_44",
+                        title:"对开",
+                        img:"images/duikai.jpg",
+                    },
+                    {
+                           
+                        id:"gcl_45",
+                        title:"干湿分储",
+                        img:"images/ganshi.jpg",
+                    }
+                ],
+                rightChild:[
+                    {
+                        id:"gcr_40",
+                        desc:"BCD-470WDPG 470升十字对开",
+                        pirce:"￥4399",
+                        img:"images/gdsl1.jpg",
+                        preferential:"",
+
+                    },
+                    {
+                        id:"gcr_41",
+                        desc:"BCD-258WDVLU1",
+                        pirce:"￥2799",
+                        img:"images/gdsl2.jpg",
+                        preferential:"",
+
+                    },
+                    {
+                        id:"gcr_42",
+                        desc:"BCD-642WDVMU1 642升变频",
+                        pirce:"￥3799",
+                        img:"images/gdsl3.jpg",
+                        preferential:"",
+
+                    },
+                    {
+                        id:"gcr_43",
+                        desc:"BCD-458WDVMU1 458升风冷",
+                        pirce:"￥3699",
+                        img:"images/gdsl4.jpg",
+                        preferential:"",
+
+                    },
+                ],
+
+            },
+            { 
+                id:"gc_5",
+                title:"空调",
+                leftChild:[
+                    {
+                        id:"gcl_50",
+                         title:"壁挂式空调",
+                         img:"images/gdsr21.jpg",
+                    },
+                    {
+                        
+                        id:"gcl_51",
+                        title:"柜式空调",
+                        img:"images/gdsr22.jpg",
+                    },
+                    {
+                            
+                        id:"gcl_52",
+                        title:"空气类产品",
+                        img:"images/gdsr23.jpg",
+                    },
+                    {
+           
+                        id:"gcl_53",
+                        title:"柜机",
+                        img:"images/gdsr24.jpg",
+                    },
+                  
+                ],
+                rightChild:[
+                    {
+                        id:"gcr_50",
+                        desc:"BCD-470WDPG 470升十字对开",
+                        pirce:"￥4399",
+                        img:"images/gdsl11.jpg",
+                        preferential:"",
+
+                    },
+                    {
+                        id:"gcr_51",
+                        desc:"BCD-258WDVLU1",
+                        pirce:"￥2799",
+                        img:"images/gdsl12.jpg",
+                        preferential:"",
+
+                    },
+                    {
+                        id:"gcr_52",
+                        desc:"BCD-642WDVMU1 642升变频",
+                        pirce:"￥3799",
+                        img:"images/gdsl13.jpg",
+                        preferential:"",
+
+                    },
+                    {
+                        id:"gcr_53",
+                        desc:"BCD-458WDVMU1 458升风冷",
+                        pirce:"￥3699",
+                        img:"images/gdsl14.jpg",
+                        preferential:"",
+
+                    },
+                ],
+
+            },
+            { 
+                id:"gc_6",
+                title:"洗衣机",
+                leftChild:[
+                    {
+                        id:"gcl_60",
+                         title:"滚筒",
+                         img:"images/gdsr31.jpg",
+                    },
+                    {
+                        
+                        id:"gcl_61",
+                        title:"波轮",
+                        img:"images/gdsr32.jpg",
+                    },
+                    {
+                            
+                        id:"gcl_62",
+                        title:"双通",
+                        img:"images/gdsr33.jpg",
+                    },
+                    {
+           
+                        id:"gcl_63",
+                        title:"mini",
+                        img:"images/gdsr34.jpg",
+                    },
+                    {
+                        
+                        id:"gcl_64",
+                        title:"免清洗",
+                        img:"images/gdsr35.jpg",
+                    },
+                ],
+                rightChild:[
+                    {
+                        id:"gcr_60",
+                        desc:"BCD-470WDPG 470升十字对开",
+                        pirce:"￥4399",
+                        img:"images/gdsl111.jpg",
+                        preferential:"",
+
+                    },
+                    {
+                        id:"gcr_61",
+                        desc:"BCD-258WDVLU1",
+                        pirce:"￥2799",
+                        img:"images/gdsl121.jpg",
+                        preferential:"",
+
+                    },
+                    {
+                        id:"gcr_62",
+                        desc:"BCD-642WDVMU1 642升变频",
+                        pirce:"￥3799",
+                        img:"images/gdsl131.jpg",
+                        preferential:"",
+
+                    },
+                    {
+                        id:"gcr_63",
+                        desc:"BCD-458WDVMU1 458升风冷",
+                        pirce:"￥3699",
+                        img:"images/gdsl141.jpg",
+                        preferential:"",
+
+                    },
+                ],
+
+            },
+            { 
+                id:"gc_7",
+                title:"空调",
+                leftChild:[
+                    {
+                        id:"gcl_70",
+                         title:"壁挂式空调",
+                         img:"images/gdsr21.jpg",
+                    },
+                    {
+                        
+                        id:"gcl_71",
+                        title:"柜式空调",
+                        img:"images/gdsr22.jpg",
+                    },
+                    {
+                            
+                        id:"gcl_72",
+                        title:"空气类产品",
+                        img:"images/gdsr23.jpg",
+                    },
+                    {
+           
+                        id:"gcl_73",
+                        title:"柜机",
+                        img:"images/gdsr24.jpg",
+                    },
+                  
+                ],
+                rightChild:[
+                    {
+                        id:"gcr_70",
+                        desc:"BCD-470WDPG 470升十字对开",
+                        pirce:"￥4399",
+                        img:"images/gdsl11.jpg",
+                        preferential:"",
+
+                    },
+                    {
+                        id:"gcr_71",
+                        desc:"BCD-258WDVLU1",
+                        pirce:"￥2799",
+                        img:"images/gdsl12.jpg",
+                        preferential:"",
+
+                    },
+                    {
+                        id:"gcr_72",
+                        desc:"BCD-642WDVMU1 642升变频",
+                        pirce:"￥3799",
+                        img:"images/gdsl13.jpg",
+                        preferential:"",
+
+                    },
+                    {
+                        id:"gcr_73",
+                        desc:"BCD-458WDVMU1 458升风冷",
+                        pirce:"￥3699",
+                        img:"images/gdsl14.jpg",
+                        preferential:"",
+
+                    },
+                ],
+
+            },
+            {
+                id:"gc_8",
+                title:"净水器",
+                leftChild:null,
+                rightChild:null,
+            },
+            { 
+                id:"gc_9",
+                title:"电视",
+                leftChild:[
+                    {
+                        id:"gcl_90",
+                         title:"智能电视",
+                         img:"images/gdsr41.jpg",
+                    },
+                    {
+                        
+                        id:"gcl_91",
+                        title:"LED显示屏",
+                        img:"images/gdsr42.jpg",
+                    },
+                    {
+                            
+                        id:"彩色电视",
+                        title:"三门",
+                        img:"images/gdsr43.jpg",
+                    },
+                    
+                ],
+                rightChild:null
+
+            },
+            { 
+                id:"gc_10",
+                title:"冰箱",
+                leftChild:[
+                    {
+                        id:"gcl_100",
+                         title:"单门",
+                         img:"images/danmen.jpg",
+                    },
+                    {
+                        
+                        id:"gcl_101",
+                        title:"两门",
+                        img:"images/liamen.jpg",
+                    },
+                    {
+                            
+                        id:"gcl_1102",
+                        title:"三门",
+                        img:"images/sanmen.jpg",
+                    },
+                    {
+           
+                        id:"gcl_103",
+                        title:"多门",
+                        img:"images/duomen.jpg",
+                    },
+                    {
+                        
+                        id:"gcl_104",
+                        title:"对开",
+                        img:"images/duikai.jpg",
+                    },
+                    {
+                           
+                        id:"gcl_105",
+                        title:"干湿分储",
+                        img:"images/ganshi.jpg",
+                    }
+                ],
+                rightChild:[
+                    {
+                        id:"gcr_100",
+                        desc:"BCD-470WDPG 470升十字对开",
+                        pirce:"￥4399",
+                        img:"images/gdsl1.jpg",
+                        preferential:"",
+
+                    },
+                    {
+                        id:"gcr_101",
+                        desc:"BCD-258WDVLU1",
+                        pirce:"￥2799",
+                        img:"images/gdsl2.jpg",
+                        preferential:"",
+
+                    },
+                    {
+                        id:"gcr_102",
+                        desc:"BCD-642WDVMU1 642升变频",
+                        pirce:"￥3799",
+                        img:"images/gdsl3.jpg",
+                        preferential:"",
+
+                    },
+                    {
+                        id:"gcr_103",
+                        desc:"BCD-458WDVMU1 458升风冷",
+                        pirce:"￥3699",
+                        img:"images/gdsl4.jpg",
+                        preferential:"",
+
+                    },
+                ],
+
+            },
+            
+        ];
+        var str = JSON.stringify(arr);
+        document.write(str);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

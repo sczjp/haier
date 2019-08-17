@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* CSS Document */
+body, h1, h3, h2, h4, h5, h6, p, dl, dd, ul, li, ol, td, form, input, fieldset, legend {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #333; }
+
+body {
+  font-size: 14px;
+  font-family: Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\5b8b体,sans-serif;
+  color: #666; }
+
+* {
+  box-sizing: border-box; }
+
+img {
+  vertical-align: top;
+  display: block;
+  border: none; }
+
+a, input {
+  outline: none; }
+
+em, i {
+  font-style: normal; }
+
+b, strong, h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden; }
+
+table {
+  border-collapse: collapse; }
+
+.border0 {
+  border: none; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.Hair-index-footer-box {
+  height: 342px;
+  display: flex;
+  justify-content: center; }
+  .Hair-index-footer-box .Hair-index-footer {
+    width: 1190px;
+    height: 342px; }
+    .Hair-index-footer-box .Hair-index-footer .Hair-index-footer-top {
+      height: 104px;
+      display: flex;
+      justify-content: space-between;
+      padding: 35px 64px 25px 25px;
+      border-bottom: 1px solid #999; }
+      .Hair-index-footer-box .Hair-index-footer .Hair-index-footer-top a {
+        display: flex; }
+        .Hair-index-footer-box .Hair-index-footer .Hair-index-footer-top a .iconfont {
+          font-size: 35px;
+          color: #2979ff; }
+        .Hair-index-footer-box .Hair-index-footer .Hair-index-footer-top a div {
+          display: flex;
+          flex-direction: column;
+          margin-left: 5px; }
+          .Hair-index-footer-box .Hair-index-footer .Hair-index-footer-top a div span:first-child {
+            color: #543333;
+            font-weight: 300; }
+          .Hair-index-footer-box .Hair-index-footer .Hair-index-footer-top a div span:last-child {
+            color: #a6a6bf; }
+  .Hair-index-footer-box .Hair-index-footer-bootom {
+    height: 238px;
+    width: 1190px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 0 40px 25px; }
+    .Hair-index-footer-box .Hair-index-footer-bootom .Hair-index-footer-bootom-left {
+      display: flex;
+      justify-content: space-between;
+      width: 73%; }
+      .Hair-index-footer-box .Hair-index-footer-bootom .Hair-index-footer-bootom-left dl {
+        width: 20%; }
+        .Hair-index-footer-box .Hair-index-footer-bootom .Hair-index-footer-bootom-left dl dt {
+          color: #333;
+          margin-bottom: 18px; }
+        .Hair-index-footer-box .Hair-index-footer-bootom .Hair-index-footer-bootom-left dl dd a {
+          color: #999; }
+          .Hair-index-footer-box .Hair-index-footer-bootom .Hair-index-footer-bootom-left dl dd a:hover {
+            color: #2979ff; }
+    .Hair-index-footer-box .Hair-index-footer-bootom .Hair-index-footer-bootom-right {
+      width: 24%;
+      padding: 5px 64px 0 0;
+      border-left: 1px solid #999;
+      margin-left: 15px; }
+      .Hair-index-footer-box .Hair-index-footer-bootom .Hair-index-footer-bootom-right a {
+        width: 128px;
+        height: 28px;
+        border: 1px solid #999;
+        display: flex;
+        align-items: center;
+        color: #999;
+        margin: 0 0 15px 20px; }
+        .Hair-index-footer-box .Hair-index-footer-bootom .Hair-index-footer-bootom-right a:hover {
+          color: #2979ff; }
+        .Hair-index-footer-box .Hair-index-footer-bootom .Hair-index-footer-bootom-right a .iconfont {
+          width: 22px;
+          height: 22px;
+          margin: 0 6px 0 20px;
+          color: #2979ff;
+          line-height: 22px; }
+      .Hair-index-footer-box .Hair-index-footer-bootom .Hair-index-footer-bootom-right .Hair-two-dimension-code {
+        display: flex;
+        padding: 0 0 0 10px;
+        justify-content: flex-start;
+        height: 128px; }
+        .Hair-index-footer-box .Hair-index-footer-bootom .Hair-index-footer-bootom-right .Hair-two-dimension-code div {
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+          .Hair-index-footer-box .Hair-index-footer-bootom .Hair-index-footer-bootom-right .Hair-two-dimension-code div span img {
+            width: 110px;
+            height: 110px;
+            margin-left: 5px; }

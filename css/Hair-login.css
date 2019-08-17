@@ -1,0 +1,294 @@
+@charset "UTF-8";
+/* CSS Document */
+body, h1, h3, h2, h4, h5, h6, p, dl, dd, ul, li, ol, td, form, input, fieldset, legend {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #333; }
+
+body {
+  font-size: 14px;
+  font-family: Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\5b8b体,sans-serif;
+  color: #666; }
+
+* {
+  box-sizing: border-box; }
+
+img {
+  vertical-align: top;
+  display: block;
+  border: none; }
+
+a, input {
+  outline: none; }
+
+em, i {
+  font-style: normal; }
+
+b, strong, h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden; }
+
+table {
+  border-collapse: collapse; }
+
+.border0 {
+  border: none; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.Hair-login-top {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #f2f2f2; }
+  .Hair-login-top .Hair-login-logo {
+    width: 1000px;
+    height: 90px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; }
+    .Hair-login-top .Hair-login-logo a {
+      margin: 0 12px; }
+
+.Hair-login-center {
+  background: url("../images/shop_login_wrap_bg.png") no-repeat 50% 50%;
+  background-attachment: scroll;
+  height: 590px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center; }
+  .Hair-login-center .Hair-login-center-content {
+    width: 1000px;
+    height: 443px;
+    padding: 35px 0 0 510px; }
+    .Hair-login-center .Hair-login-center-content .entry {
+      background: #e8e8e8;
+      padding: 4px;
+      position: relative; }
+      .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con {
+        width: 490px;
+        height: 400px;
+        border: 1px solid #f2f2f2;
+        background: #fff; }
+        .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-title {
+          width: 488px;
+          height: 63px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0 16px;
+          border-bottom: 1px solid #f2f2f2; }
+          .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-title h2 {
+            font-weight: 900; }
+          .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-title a {
+            color: #005aaa; }
+            .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-title a:hover {
+              text-decoration: underline; }
+        .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-tab {
+          width: 488px;
+          height: 47px;
+          display: flex;
+          justify-content: center; }
+          .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-tab .Hair-login-tab {
+            width: 260px;
+            height: 47px;
+            display: flex;
+            justify-content: center;
+            align-items: center; }
+            .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-tab .Hair-login-tab a:first-child {
+              color: skyblue;
+              border-bottom-color: skyblue; }
+            .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-tab .Hair-login-tab a {
+              font-size: 14px;
+              width: 130px;
+              height: 47px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border-bottom: 3px solid #e4e4e4; }
+              .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-tab .Hair-login-tab a:hover {
+                color: #666; }
+        .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content1 {
+          width: 488px;
+          height: 239px;
+          padding: 35px 114px 20px; }
+          .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content1 .Hair-login-center-con-content-con {
+            width: 260px; }
+            .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content1 .Hair-login-center-con-content-con .Hair-login-center-con-content-top {
+              width: 260px;
+              height: 54px; }
+              .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content1 .Hair-login-center-con-content-con .Hair-login-center-con-content-top #shop_login_username {
+                width: 260px;
+                height: 34px;
+                padding-left: 38px; }
+              .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content1 .Hair-login-center-con-content-con .Hair-login-center-con-content-top .iconfont {
+                position: absolute;
+                top: 160px;
+                left: 134px;
+                font-size: 14px; }
+              .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content1 .Hair-login-center-con-content-con .Hair-login-center-con-content-top label {
+                position: absolute;
+                top: 160px;
+                left: 156px;
+                font-size: 14px; }
+              .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content1 .Hair-login-center-con-content-con .Hair-login-center-con-content-top .validation_marked_info {
+                display: none; }
+            .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content1 .Hair-login-center-con-content-con .Hair-login-center-con-content-bottom {
+              width: 260px;
+              height: 54px; }
+              .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content1 .Hair-login-center-con-content-con .Hair-login-center-con-content-bottom #shop_login_password {
+                width: 260px;
+                height: 34px;
+                padding-left: 38px; }
+              .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content1 .Hair-login-center-con-content-con .Hair-login-center-con-content-bottom .iconfont {
+                position: absolute;
+                top: 215px;
+                left: 134px;
+                font-size: 14px; }
+              .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content1 .Hair-login-center-con-content-con .Hair-login-center-con-content-bottom label {
+                position: absolute;
+                top: 213px;
+                left: 156px;
+                font-size: 14px; }
+              .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content1 .Hair-login-center-con-content-con .Hair-login-center-con-content-bottom .hide_tips, .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content1 .Hair-login-center-con-content-con .Hair-login-center-con-content-bottom .validation_marked_info {
+                display: none; }
+            .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content1 .Hair-login-center-con-content-con .Hair-forget-pwd {
+              width: 260px;
+              height: 20px; }
+              .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content1 .Hair-login-center-con-content-con .Hair-forget-pwd a {
+                font-size: 12px;
+                color: #005aaa;
+                float: right; }
+                .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content1 .Hair-login-center-con-content-con .Hair-forget-pwd a:hover {
+                  text-decoration: underline; }
+            .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content1 .Hair-login-center-con-content-con .Hair-login-submit {
+              height: 56px;
+              padding: 8px 0; }
+              .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content1 .Hair-login-center-con-content-con .Hair-login-submit a {
+                display: block;
+                background: #32beff;
+                border-radius: 4px; }
+                .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content1 .Hair-login-center-con-content-con .Hair-login-submit a:hover {
+                  background: #005aaa; }
+                .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content1 .Hair-login-center-con-content-con .Hair-login-submit a b {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  width: 260px;
+                  height: 40px;
+                  font-size: 15px;
+                  color: #fff; }
+        .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content2 {
+          width: 488px;
+          height: 239px;
+          padding: 35px 114px 20px;
+          display: none; }
+          .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content2 .Hair-login-center-con-content-con2 {
+            width: 260px; }
+            .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content2 .Hair-login-center-con-content-con2 .Hair-login-center-con-content-top1 {
+              width: 260px;
+              height: 54px; }
+              .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content2 .Hair-login-center-con-content-con2 .Hair-login-center-con-content-top1 .fe_text_phone {
+                width: 260px;
+                height: 34px;
+                padding-left: 38px; }
+              .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content2 .Hair-login-center-con-content-con2 .Hair-login-center-con-content-top1 .iconfont {
+                position: absolute;
+                top: 160px;
+                left: 134px;
+                font-size: 14px; }
+              .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content2 .Hair-login-center-con-content-con2 .Hair-login-center-con-content-top1 label {
+                position: absolute;
+                top: 160px;
+                left: 156px;
+                font-size: 14px; }
+              .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content2 .Hair-login-center-con-content-con2 .Hair-login-center-con-content-top1 .validation_marked_numberinfo {
+                display: none; }
+            .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content2 .Hair-login-center-con-content-con2 .Hair-login-center-con-content-bottom1 {
+              width: 260px;
+              height: 54px; }
+              .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content2 .Hair-login-center-con-content-con2 .Hair-login-center-con-content-bottom1 #shop_login_code {
+                width: 260px;
+                height: 34px;
+                padding-left: 38px;
+                padding-right: 100px; }
+              .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content2 .Hair-login-center-con-content-con2 .Hair-login-center-con-content-bottom1 .iconfont {
+                position: absolute;
+                top: 215px;
+                left: 134px;
+                font-size: 14px; }
+              .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content2 .Hair-login-center-con-content-con2 .Hair-login-center-con-content-bottom1 label {
+                position: absolute;
+                top: 213px;
+                left: 156px;
+                font-size: 14px; }
+              .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content2 .Hair-login-center-con-content-con2 .Hair-login-center-con-content-bottom1 .verticalLine {
+                position: absolute;
+                top: 213px;
+                left: 275px;
+                font-size: 14px; }
+              .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content2 .Hair-login-center-con-content-con2 .Hair-login-center-con-content-bottom1 .getCode {
+                position: absolute;
+                top: 213px;
+                left: 293px;
+                font-size: 14px;
+                color: #32beff; }
+                .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content2 .Hair-login-center-con-content-con2 .Hair-login-center-con-content-bottom1 .getCode:hover {
+                  color: #005aaa; }
+              .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content2 .Hair-login-center-con-content-con2 .Hair-login-center-con-content-bottom1 .Hair-login-code {
+                display: none; }
+            .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content2 .Hair-login-center-con-content-con2 .Hair-login-submit {
+              height: 56px;
+              padding: 8px 0; }
+              .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content2 .Hair-login-center-con-content-con2 .Hair-login-submit a {
+                display: block;
+                background: #32beff;
+                border-radius: 4px; }
+                .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content2 .Hair-login-center-con-content-con2 .Hair-login-submit a:hover {
+                  background: #005aaa; }
+                .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-content2 .Hair-login-center-con-content-con2 .Hair-login-submit a b {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  width: 260px;
+                  height: 40px;
+                  font-size: 15px;
+                  color: #fff; }
+        .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-footer {
+          width: 488px;
+          height: 49px;
+          padding: 14px 0; }
+          .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-footer ul {
+            height: 20px;
+            padding: 0 7px;
+            display: flex; }
+            .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-footer ul li {
+              margin-left: 4px;
+              font-size: 12px; }
+              .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-footer ul li a {
+                margin-left: 4px; }
+                .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-footer ul li a:hover {
+                  text-decoration: underline;
+                  color: #32beff; }
+            .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-footer ul li:nth-of-type(2) {
+              color: #da4646; }
+            .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-footer ul li:nth-of-type(3) {
+              color: #f08444; }
+            .Hair-login-center .Hair-login-center-content .entry .Hair-login-center-con .Hair-login-center-con-footer ul li:nth-of-type(4) {
+              color: #1b6bb6; }

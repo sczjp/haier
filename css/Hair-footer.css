@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* CSS Document */
+body, h1, h3, h2, h4, h5, h6, p, dl, dd, ul, li, ol, td, form, input, fieldset, legend {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #333; }
+
+body {
+  font-size: 14px;
+  font-family: Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\5b8b体,sans-serif;
+  color: #666; }
+
+* {
+  box-sizing: border-box; }
+
+img {
+  vertical-align: top;
+  display: block;
+  border: none; }
+
+a, input {
+  outline: none; }
+
+em, i {
+  font-style: normal; }
+
+b, strong, h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden; }
+
+table {
+  border-collapse: collapse; }
+
+.border0 {
+  border: none; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.copyright-mod {
+  height: 167px;
+  font-family: Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\5b8b体,sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px; }
+  .copyright-mod .layout-grid {
+    width: 1190px; }
+    .copyright-mod .layout-grid .a-links {
+      font-size: 12px;
+      display: flex;
+      justify-content: center; }
+      .copyright-mod .layout-grid .a-links a {
+        margin: 0 12px;
+        color: #666; }
+      .copyright-mod .layout-grid .a-links span {
+        color: #c7c7c7; }
+    .copyright-mod .layout-grid .beian {
+      font-size: 14px;
+      display: flex;
+      justify-content: center;
+      margin-top: 17px; }
+      .copyright-mod .layout-grid .beian span {
+        font-size: 14px; }
+      .copyright-mod .layout-grid .beian a:last-of-type {
+        display: flex;
+        margin-left: 13px; }
+        .copyright-mod .layout-grid .beian a:last-of-type img {
+          margin-right: 10px; }
+    .copyright-mod .layout-grid .copyright {
+      font-size: 12px;
+      display: flex;
+      justify-content: center;
+      margin-top: 13px; }
+    .copyright-mod .layout-grid .p-all-honor {
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      margin-top: 39px; }
+      .copyright-mod .layout-grid .p-all-honor img {
+        height: 100%;
+        margin: 0 8px; }

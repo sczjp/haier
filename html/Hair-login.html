@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>用户登录</title>
+    
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/Hair-login.css">
+    <script src = "../js/require.js" async ="true" defer data-main="../js/loginMain"></script>
+    
+</head>
+<body>
+    <div class = "Hair-login-top">
+        <div class = "Hair-login-logo">
+            <a href=""><img src="../images/logo.png" alt=""></a>
+            <a href=""><img src="../images/n-slogan.png" alt=""></a>
+        </div>
+    </div>
+
+    <div class="Hair-login-center">
+        
+        <div class="Hair-login-center-content">
+            <div class = "entry">
+                <div class="Hair-login-center-con">
+                     <div class="Hair-login-center-con-title">
+                         <h2>欢迎登录顺逛商城</h2>
+                         <a href="Hair-register.html">免费注册></a>
+                     </div>
+                    <div class="Hair-login-center-con-tab">
+                        <div class= "Hair-login-tab">
+                            <a href="" class="ordinary-tab">普通登录</a>
+                            <a href="" class="phone-tab">手机动态密码</a>
+                        </div>
+
+                    </div>
+                    <!-- 普通登录 -->
+                     <div class="Hair-login-center-con-content1">
+                         <div class="Hair-login-center-con-content-con">
+                             <div class="Hair-login-center-con-content-top">
+                                <span class="iconfont">&#xe654;</span>
+            	                <input class="fe_text jsv_required js_has_dval" type="text" name="username" title="请输入手机号"  id="shop_login_username" required tabindex="1" maxlength="60" placeholder="请输入用户名">
+                                
+                                
+        
+            
+                             </div>
+                             <div class="Hair-login-center-con-content-bottom">
+                                 
+            	                <input class="fe_text jsv_required js_caps_passwd js_has_dval" type="password" required name="password" title="密码不能小于6位,密码前后不能包含空格" id="shop_login_password" tabindex="2" placeholder="请输入密码">
+                                
+                                <span class=" iconfont icon-password "></span>
+                                <span class="hide_tips js_hide_tips">键盘大写锁定已打开，请注意大小写</span>
+                                <div class="validation_marked_info js_validation_marked_info" id="loginmessage">密码不能少于6位</div>
+                             </div>
+
+                             <div class="Hair-forget-pwd">
+                                 <a href="">
+                                     <span>忘记密码 ？</span>
+                                </a>
+                            </div>
+
+                            <div class="Hair-login-submit">
+                                <a href="#">
+                                    <b>登录</b>
+                                </a>
+                            </div>
+                         </div>
+                        </div>
+
+                     <!-- 手机动态密码登录 -->
+                   <!--   <div action="" class="Hair-login-center-con-content2">
+                            <div class="Hair-login-center-con-content-con2">
+                                <div class="Hair-login-center-con-content-top1">
+                                   <span class="iconfont icon-shouji "></span>
+                                   <input class="fe_text_phone" type="text" name="username" title="请输入手机号" value="" id="shop_login_username">
+                                   <label>请输入手机号</label>
+                                   
+                                   <span class="validation_marked_numberinfo  ">请输入手机号！</span>
+               
+                                </div>
+                                <div class="Hair-login-center-con-content-bottom1">
+                                    
+                                   <input class="fe_text_number" type="text" name="password" title="密码不能小于6位,密码前后不能包含空格" id="shop_login_code" >
+                                   <label>请输入手机验证码 </label>
+                                   <span class ="verticalLine">|</span>
+                                   <a href="" class= "getCode">获取验证码</a>
+                                   <span class=" iconfont icon-email  "></span>
+                                   <div class="Hair-login-code" id="veriycode">密码不能少于6位</div>
+                                </div>
+   
+                               <div class="Hair-login-submit">
+                                   <a href="#">
+                                       <b>登录</b>
+                                   </a>
+                               </div>
+                            </div>
+                        </div> -->
+                    <div class="Hair-login-center-con-footer">
+                        <ul>
+                            <li>其他方式登录 ：</li>
+                            <li class="iconfont">&#xe630;<a href="">新浪微博</a></li>
+                            <li class="iconfont">&#xe65d;<a href="">支付宝</a></li>
+                            <li class="iconfont">&#xe639;<a href="">快捷通</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class ="Hair-login-bootom">
+        <embed src="Hair-footer.html" type="" width = "100%" height =  "167px">
+    </div>
+    
+</body>
+</html>

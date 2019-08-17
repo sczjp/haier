@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/Hair-car.css">
+    <title>购物车</title>
+    <script src = "../js/require.js" async = "true" defer data-main="../js/carMain"></script>
+    
+</head>
+<body>
+    <div class="Hair-car-header-box">
+        <div class="Hair-car-header">
+            <div class="Hair-car-headerl">
+                <i class="iconfont">&#xe61a;</i>
+                <span>青岛</span>
+            </div>
+            <ul class="Hair-car-headerr">
+                <li class = "Hair-login">
+                    嗨，欢迎来到顺逛官方商城 请
+                    <a href="">登录</a>|
+                    <a href="">免费注册</a>
+                </li>
+                <li>
+                    <a href="#" style = "color:aqua">退出登录</a>
+                </li>
+                <li class = "xian"></li>
+                <li>
+                   <a href="">顺逛</a> 
+                </li>
+                <li class = "xian"></li>
+                <li>
+                     <a href="">互动社区</a> 
+                </li>
+                <li class = "xian"></li>
+                <li>
+                    <a href="">知识堂</a>
+                </li>
+                <li class = "xian"></li>
+                <li>
+                    <a href="">帮助中心</a>
+                </li>
+                <li class = "xian"></li>
+                <li>
+                    <a href="">企业购</a>
+                </li>
+                <li class = "xian"></li>
+                <li>
+                    <a href="">海尔官网</a>
+                </li>
+                <li class = "xian"></li>
+                <li>
+                    <a href="">好品海智</a>
+                </li>
+                <li class = "xian"></li>
+                <li>
+                    <a href="">商户平台</a>
+                    <div class="zsrz">
+                        <a href="">招商入驻</a>
+                    </div>
+                </li>
+                <li class = "xian"></li>
+                <li>
+                    <a href="">顺逛社区</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+        <div class="Hair-car-con-box">
+            <div class="Hair-car-con-logo">
+                <div class="Hair-cr-con-logo-left">
+                    <a href=""><img src="../images/logo.png" alt=""></a>
+                    <span>购物车</span>
+                </div>
+                <div class="Hair-cr-con-logo-right">
+                    <div>我的购物车</div>
+                    <span></span>
+                    <div>填写核对订单</div>
+                    <span></span>
+                    <div>成功提交订单</div>
+                </div>
+            </div>
+            <!-- <div class="Hair-car-con-islogin">
+                <div class="Hair-car-con-islogin-con">
+                    <span></span>
+                    <span>您还没有登录 ! 登录后购物车的商品将保存到您账号中</span>
+                    <a href="Hair-login.html">立即登录</a>
+                </div>
+            </div> -->
+            <div class="Hair-car-con-box">
+                <table class="car-table">
+                    <tr class = "one">
+                        <td><input type="checkbox" id="tag_box" >全选</td>
+                        <td>商品</td>
+                        <td>货到付款</td>
+                        <td>单价(美元)</td>
+                        <td>数量</td>
+                        <td>小计(美元)</td>
+                        <td>操作</td>
+                    </tr>
+                    <!-- <tr class="two">
+                            <td><input type="checkbox" id="tag_box" checked="checked"></td>
+                            <td>
+                                <a href="">
+                                    <img src="../images/dajiashuo1.jpg" alt="11111111">
+                                    <span>
+                                        我们海尔的产品怎么样呢
+                                    </span>
+                                </a>
+                            </td>
+                            <td>
+                                支持
+                            </td>
+                            <td>
+                                <i>$</i>
+                                999
+                            </td>
+                            <td>
+                                <b class="jiaBtn">+</b>
+                                0
+                                <b class="jianBtn">-</b>
+                            </td>
+                            <td>
+                                <i>$</i>
+                                1999
+                            </td>
+                            <td>
+                                <b class="shanBtn">删除</b>
+                            </td>
+
+                    </tr>
+                     -->
+                </table>
+                <table class="car-table2">
+                    <tr class="three">
+                        <td></td>
+                        <td>删除选中商品</td>
+                        <td id = 'delete_car'> 清空购物车</td>
+                        <td></td>
+                        
+                        <td class = "three-price">
+                            <span></span>
+                            件，订单总价共计：
+                            <i>$<b></b></i>
+                        </td>
+                         <td><a href="Hair-goodsList.html" target="_blank">继续购物</a></td>       
+                        <td>
+                            <b>立即结算</b>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!-- <div class="Hair-car-con-con">
+                <div class="carsList">
+                    <div class="form">
+                        <ul class="form-header">
+                            <li><input type="checkbox" id="tag_box" checked="checked">全选</li>
+                            <li>商品</li>
+                            <li>货到付款</li>
+                            <li>单价(美元)</li>
+                            <li>数量</li>
+                            <li>以优惠</li>
+                            <li>小计(元)</li>
+                            <li>操作</li>
+                        </ul>
+                        <div class="form-con">
+                            <div>
+                            <div class="list-chex">
+                                <input type="checkbox" class="tag_list" checked="checked">
+                            </div>
+                            <div class="details">
+                                <ul>
+                                    <li class="details-img">
+                                        <a href="http://www.shunguang.com/product/14663.html" target="_blank">
+                                            <img src="http://cdn50.ehaier.com/marketing-center-web/changeactivity/image/2019/08/bbccd9a6e255464f8c0f5f214f0cc001.jpg@80_80">
+                                        </a>
+                                    </li>
+                                </ul>
+                                <a class="t-Description" href="http://www.shunguang.com/product/14663.html" target="_blank" title="Haier/海尔滚筒洗衣机EG10014HBX39GU1">
+                                            
+                                    <span class="zy-mark">自营</span>
+                                    Haier/海尔滚筒洗衣机EG10014HBX39GU1
+                                </a><br>
+                                <div class="spInfo_Prompt">
+                                </div>
+                            </div>
+                            <div>
+                                支持
+                            </div>
+                            <div>
+                                ￥5666
+                            </div>
+                            <div class="number">
+                                <div class="number_input">
+                                    <span class="Negative" id="negative_15200755">-</span>
+                                    <input type="text" autocomplete="off" id="num_15200755" value="1" class="text">
+                                    <input type="hidden" id="personQty_15200755" value="0">
+                                    <input type="hidden" id="residue_15200755" value="-1">
+                                    <input type="hidden" id="stock_15200755" value="6">
+                                    <span class="Positive" id="positive_15200755">+</span>
+                                </div>
+                                <div class="Only" id="Only_15200755">有货</div>
+                            </div>
+                            <div>
+                                <i>$0</i>
+                            </div>
+                            <div>
+                                <i>$5666</i>
+                            </div>
+                            <div>
+                                删除
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="balance">
+                    <div class="balance_center">
+                        <div class="balance-left">
+                            <p class="Selectionping"><input type="checkbox" id="tag_box-1" checked="checked">全选</p>
+                            <p class="D-item delShopping" id="d_ie">删除选中商品</p>
+                            <p class="D-item Invalidping" id="d_qc">清除无效商品</p>
+                            <div id="no_bl" class="delRegin" style = "display: none">
+                                <div id="no_bl-main">
+                                    <div id="no-bl_bd">
+                                        <span id="d-title">您确定删除选中商品?</span>
+                                        <div class="rq-box2">
+                                            <span id="nl-qr" class="qr ConfirmShopping">确认</span>
+                                            <span id="nl-qx" class="qx CancelShopping">取消</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="no_bl2" class="RemoveRegin" style ="display: none">
+                                <div id="no_bl-main2">
+                                    <div id="no-bl_bd2">
+                                        <span id="d-title2">您确定清除无效商品?</span>
+                                        <div class="rq-box2">
+                                            <span id="nl-qr2" class="qr RemoveShopping">确认</span>
+                                            <span id="nl-qx2" class="qx RemoveShopping">取消</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="balance-right">
+                            <a class="balance_color conflict_Color" id="allNum">1</a> 件 订单总计：
+                            <a class="balance_colors conflict_Color" id="prace_all">￥3699</a>
+                            <a class="balance_node all-color" id="flowButton_new" onclick="flowButton_new()">立即结算</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div> -->
+        </div>
+        <div class ="Hair-index-footer" style = "background: #fff">
+            <embed src="../html/Hair-index-footer.html" type="" width = "100%" height =  "342px">
+        </div>
+        <div class ="Hair-index-bottom" style = "background: #fff">
+            <embed src="../html/Hair-footer.html" type="" width = "100%" height =  "167px">
+        </div>
+
+</body>
+</html>

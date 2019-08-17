@@ -1,0 +1,236 @@
+@charset "UTF-8";
+/* CSS Document */
+body, h1, h3, h2, h4, h5, h6, p, dl, dd, ul, li, ol, td, form, input, fieldset, legend {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #333; }
+
+body {
+  font-size: 14px;
+  font-family: Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\5b8b体,sans-serif;
+  color: #666; }
+
+* {
+  box-sizing: border-box; }
+
+img {
+  vertical-align: top;
+  display: block;
+  border: none; }
+
+a, input {
+  outline: none; }
+
+em, i {
+  font-style: normal; }
+
+b, strong, h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden; }
+
+table {
+  border-collapse: collapse; }
+
+.border0 {
+  border: none; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+body {
+  overflow: hidden; }
+
+.Hair-public-header-box {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  background: #f6f6f6; }
+  .Hair-public-header-box .Hair-public-header {
+    width: 1190px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .Hair-public-header-box .Hair-public-header .Hair-public-position-box span {
+      color: #2979ff; }
+    .Hair-public-header-box .Hair-public-header .Hair-public-header-nav-box {
+      position: relative;
+      display: flex;
+      color: #999;
+      align-items: center; }
+      .Hair-public-header-box .Hair-public-header .Hair-public-header-nav-box span {
+        font-size: 12px; }
+      .Hair-public-header-box .Hair-public-header .Hair-public-header-nav-box li a {
+        color: #999;
+        padding: 0 10px; }
+        .Hair-public-header-box .Hair-public-header .Hair-public-header-nav-box li a:hover {
+          color: blue; }
+      .Hair-public-header-box .Hair-public-header .Hair-public-header-nav-box li:first-of-type {
+        margin-right: 20px; }
+        .Hair-public-header-box .Hair-public-header .Hair-public-header-nav-box li:first-of-type .login-btn {
+          padding: 3px 5px;
+          margin-left: 5px;
+          background: #33beff;
+          border-radius: 3px;
+          color: #fff; }
+        .Hair-public-header-box .Hair-public-header .Hair-public-header-nav-box li:first-of-type .register-btn {
+          padding: 0px; }
+      .Hair-public-header-box .Hair-public-header .Hair-public-header-nav-box li:nth-last-of-type(2) {
+        position: relative;
+        border: 1px;
+        height: 70px;
+        top: 17px; }
+        .Hair-public-header-box .Hair-public-header .Hair-public-header-nav-box li:nth-last-of-type(2) a {
+          padding-right: 0px; }
+        .Hair-public-header-box .Hair-public-header .Hair-public-header-nav-box li:nth-last-of-type(2) .business1 {
+          position: relative;
+          top: 8px; }
+        .Hair-public-header-box .Hair-public-header .Hair-public-header-nav-box li:nth-last-of-type(2) .iconfont {
+          position: relative;
+          top: 8px; }
+        .Hair-public-header-box .Hair-public-header .Hair-public-header-nav-box li:nth-last-of-type(2) div .business2 {
+          position: relative;
+          top: 22px;
+          display: none; }
+
+.Hair-public-header-content-box {
+  height: 108px;
+  display: flex;
+  justify-content: center;
+  padding: 33px 0 15px 0;
+  background: #fff; }
+  .Hair-public-header-content-box .Hair-public-header-content {
+    width: 1190px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 62px 0 15px; }
+    .Hair-public-header-content-box .Hair-public-header-content .Hair-public-header-logo {
+      display: flex;
+      justify-content: flex-start; }
+      .Hair-public-header-content-box .Hair-public-header-content .Hair-public-header-logo a:last-of-type {
+        margin-left: 10px; }
+    .Hair-public-header-content-box .Hair-public-header-content .Hair-public-header-search {
+      width: 540px;
+      height: 60px; }
+      .Hair-public-header-content-box .Hair-public-header-content .Hair-public-header-search .Hair-search-input .txt-search {
+        width: 490px;
+        height: 30px;
+        text-indent: 10px;
+        border: 1px solid #2979ff; }
+      .Hair-public-header-content-box .Hair-public-header-content .Hair-public-header-search .Hair-search-input .search-btn {
+        display: block;
+        width: 50px;
+        height: 30px;
+        background: #2979ff;
+        font-size: 20px;
+        text-align: center;
+        line-height: 30px;
+        position: relative;
+        top: -30px;
+        left: 490px; }
+      .Hair-public-header-content-box .Hair-public-header-content .Hair-public-header-search .Hair-search-bottom-nav {
+        width: 540px;
+        height: 28px;
+        position: relative;
+        top: -30px;
+        padding: 5px 0; }
+        .Hair-public-header-content-box .Hair-public-header-content .Hair-public-header-search .Hair-search-bottom-nav a:first-child {
+          color: #2979ff; }
+        .Hair-public-header-content-box .Hair-public-header-content .Hair-public-header-search .Hair-search-bottom-nav a {
+          color: #999;
+          margin-right: 10px; }
+          .Hair-public-header-content-box .Hair-public-header-content .Hair-public-header-search .Hair-search-bottom-nav a:hover {
+            color: #2979ff; }
+    .Hair-public-header-content-box .Hair-public-header-content .Hair-public-header-car {
+      position: relative;
+      width: 168px;
+      height: 31px;
+      text-align: center;
+      line-height: 31px;
+      font-size: 12px;
+      border: 1px solid #ccc; }
+      .Hair-public-header-content-box .Hair-public-header-content .Hair-public-header-car .iconfont {
+        color: #000; }
+      .Hair-public-header-content-box .Hair-public-header-content .Hair-public-header-car .myCar {
+        font-size: 12px; }
+      .Hair-public-header-content-box .Hair-public-header-content .Hair-public-header-car .myCarNum {
+        display: block;
+        width: 12px;
+        height: 12px;
+        border-radius: 7px;
+        line-height: 12px;
+        text-align: center;
+        background-color: #f40;
+        position: absolute;
+        top: 5px;
+        right: 30px; }
+    .Hair-public-header-content-box .Hair-public-header-content .Hair-public-header-car-con {
+      width: 310px;
+      border: 1px solid #aeaeae;
+      position: absolute;
+      height: 60px;
+      text-align: center;
+      line-height: 60px;
+      top: 99px;
+      right: 427px;
+      display: none; }
+
+.Hair-index-nav-box {
+  height: 40px;
+  background: #2979ff;
+  display: flex;
+  justify-content: center; }
+  .Hair-index-nav-box .Hair-index-nav {
+    width: 1190px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start; }
+    .Hair-index-nav-box .Hair-index-nav .Hair-index-nav-left {
+      width: 192px;
+      height: 40px;
+      position: relative; }
+      .Hair-index-nav-box .Hair-index-nav .Hair-index-nav-left .Hair-index-nav-left-title {
+        display: flex;
+        width: 192px;
+        height: 40px;
+        background: blue;
+        justify-content: space-between;
+        font-size: 14px;
+        align-items: center;
+        padding: 0 15px;
+        color: #fff; }
+    .Hair-index-nav-box .Hair-index-nav .Hair-index-nav-right {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 15px; }
+      .Hair-index-nav-box .Hair-index-nav .Hair-index-nav-right li {
+        padding: 0 0 0 35px;
+        position: relative; }
+        .Hair-index-nav-box .Hair-index-nav .Hair-index-nav-right li a {
+          font-size: 14px;
+          color: #f3f3f3; }
+          .Hair-index-nav-box .Hair-index-nav .Hair-index-nav-right li a:hover {
+            color: #fff; }
+        .Hair-index-nav-box .Hair-index-nav .Hair-index-nav-right li span {
+          position: absolute;
+          top: -5px;
+          right: -15px;
+          color: #f40; }

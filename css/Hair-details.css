@@ -1,0 +1,272 @@
+@charset "UTF-8";
+/* CSS Document */
+body, h1, h3, h2, h4, h5, h6, p, dl, dd, ul, li, ol, td, form, input, fieldset, legend {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #333; }
+
+body {
+  font-size: 14px;
+  font-family: Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\5b8b体,sans-serif;
+  color: #666; }
+
+* {
+  box-sizing: border-box; }
+
+img {
+  vertical-align: top;
+  display: block;
+  border: none; }
+
+a, input {
+  outline: none; }
+
+em, i {
+  font-style: normal; }
+
+b, strong, h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden; }
+
+table {
+  border-collapse: collapse; }
+
+.border0 {
+  border: none; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.seeBigPic {
+  position: fixed;
+  z-index: 5;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: rgba(153, 153, 153, 0.5);
+  top: 0; }
+  .seeBigPic div {
+    position: absolute;
+    top: 65px;
+    left: 1330px;
+    font-size: 50px;
+    color: #d71249;
+    cursor: pointer; }
+  .seeBigPic img {
+    margin: 80px auto;
+    opacity: 1;
+    background: #fff; }
+
+.Hair-details-box {
+  display: flex;
+  justify-content: center; }
+  .Hair-details-box .Hair-details {
+    width: 1190px;
+    position: relative; }
+    .Hair-details-box .Hair-details #big {
+      width: 375px;
+      height: 375px;
+      position: absolute;
+      border: 1px solid black;
+      left: 400px;
+      top: 40px;
+      overflow: hidden;
+      display: none;
+      z-index: 3; }
+      .Hair-details-box .Hair-details #big img {
+        width: 950px;
+        height: 950px;
+        position: absolute; }
+    .Hair-details-box .Hair-details .Hair-details-header {
+      height: 40px;
+      padding: 5px 4px; }
+      .Hair-details-box .Hair-details .Hair-details-header a:hover {
+        color: #2979ff; }
+      .Hair-details-box .Hair-details .Hair-details-header b {
+        color: #d71249;
+        font-weight: 900; }
+    .Hair-details-box .Hair-details .Hair-details-center {
+      height: 529px;
+      display: flex;
+      justify-content: space-between; }
+      .Hair-details-box .Hair-details .Hair-details-center .product-info-left {
+        width: 382px;
+        height: 529px;
+        position: relative; }
+        .Hair-details-box .Hair-details .Hair-details-center .product-info-left .product-info-bigPic {
+          width: 382px;
+          height: 408px;
+          border: 1px solid #f3f3f3; }
+          .Hair-details-box .Hair-details .Hair-details-center .product-info-left .product-info-bigPic .product-info-bigPic-top:first-of-type {
+            display: block; }
+          .Hair-details-box .Hair-details .Hair-details-center .product-info-left .product-info-bigPic .product-info-bigPic-top {
+            width: 380px;
+            height: 380px;
+            margin: 0 auto;
+            display: none; }
+            .Hair-details-box .Hair-details .Hair-details-center .product-info-left .product-info-bigPic .product-info-bigPic-top img {
+              width: 100%;
+              height: 100%; }
+          .Hair-details-box .Hair-details .Hair-details-center .product-info-left .product-info-bigPic #mark {
+            width: 150px;
+            height: 150px;
+            background-color: white;
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            display: none; }
+          .Hair-details-box .Hair-details .Hair-details-center .product-info-left .product-info-bigPic .product-info-bigPic-bot {
+            height: 25px; }
+            .Hair-details-box .Hair-details .Hair-details-center .product-info-left .product-info-bigPic .product-info-bigPic-bot a {
+              height: 25px;
+              display: flex;
+              align-items: center;
+              justify-content: flex-end;
+              color: #d71249; }
+              .Hair-details-box .Hair-details .Hair-details-center .product-info-left .product-info-bigPic .product-info-bigPic-bot a:hover span:last-child {
+                color: #2979ff;
+                text-decoration: underline; }
+        .Hair-details-box .Hair-details .Hair-details-center .product-info-left .product-info-smallPic {
+          width: 383px;
+          height: 85px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          position: relative;
+          padding: 15px 29px 0; }
+          .Hair-details-box .Hair-details .Hair-details-center .product-info-left .product-info-smallPic b {
+            display: block;
+            width: 24px;
+            height: 40px;
+            font-size: 40px;
+            position: absolute;
+            top: 20px; }
+            .Hair-details-box .Hair-details .Hair-details-center .product-info-left .product-info-smallPic b:hover {
+              color: #2979ff; }
+          .Hair-details-box .Hair-details .Hair-details-center .product-info-left .product-info-smallPic b:first-of-type {
+            left: -10px; }
+          .Hair-details-box .Hair-details .Hair-details-center .product-info-left .product-info-smallPic b:last-of-type {
+            right: 10px; }
+          .Hair-details-box .Hair-details .Hair-details-center .product-info-left .product-info-smallPic .product-info-smallPic-con {
+            width: 325px;
+            height: 70px; }
+            .Hair-details-box .Hair-details .Hair-details-center .product-info-left .product-info-smallPic .product-info-smallPic-con ul {
+              display: flex;
+              justify-content: space-between; }
+              .Hair-details-box .Hair-details .Hair-details-center .product-info-left .product-info-smallPic .product-info-smallPic-con ul img{
+                width: 55px;
+                height:55px; }
+        .Hair-details-box .Hair-details .Hair-details-center .product-info-left .product-info-share {
+          width: 384px;
+          height: 36px;
+          padding: 12px 0 0;
+          display: flex; }
+          .Hair-details-box .Hair-details .Hair-details-center .product-info-left .product-info-share span a:first-of-type {
+            color: red; }
+          .Hair-details-box .Hair-details .Hair-details-center .product-info-left .product-info-share span a:nth-of-type(2) {
+            color: skyblue; }
+          .Hair-details-box .Hair-details .Hair-details-center .product-info-left .product-info-share span a:nth-of-type(3) {
+            color: skyblue; }
+          .Hair-details-box .Hair-details .Hair-details-center .product-info-left .product-info-share span a:last-of-type {
+            color: green; }
+          .Hair-details-box .Hair-details .Hair-details-center .product-info-left .product-info-share .shoucang {
+            margin-left: 50px;
+            color: orange; }
+            .Hair-details-box .Hair-details .Hair-details-center .product-info-left .product-info-share .shoucang span {
+              font-size: 12px;
+              color: #666; }
+      .Hair-details-box .Hair-details .Hair-details-center .product-info-right {
+        width: 795px;
+        height: 378px; }
+        .Hair-details-box .Hair-details .Hair-details-center .product-info-right h1 {
+          width: 795px;
+          height: 33px;
+          padding: 0 0 8px;
+          font-size: 1.4em;
+          font-family: 微软雅黑;
+          color: black;
+          font-weight: 900; }
+        .Hair-details-box .Hair-details .Hair-details-center .product-info-right h2 {
+          width: 795px;
+          height: 46px;
+          font-size: 12px;
+          margin: 10px 0;
+          padding: 6px;
+          border: 1px dashed #666; }
+        .Hair-details-box .Hair-details .Hair-details-center .product-info-right ul {
+          width: 795px;
+          height: 120px; }
+          .Hair-details-box .Hair-details .Hair-details-center .product-info-right ul li {
+            height: 22px;
+            margin-top: 2px; }
+          .Hair-details-box .Hair-details .Hair-details-center .product-info-right ul li:nth-of-type(2) span:last-of-type {
+            color: #d71249; }
+          .Hair-details-box .Hair-details .Hair-details-center .product-info-right ul li:nth-of-type(4) span:last-of-type {
+            color: #d71249; }
+          .Hair-details-box .Hair-details .Hair-details-center .product-info-right ul li:last-of-type {
+            width: 795px; }
+            .Hair-details-box .Hair-details .Hair-details-center .product-info-right ul li:last-of-type a {
+              float: right;
+              font-size: 12px;
+              color: #2979ff; }
+              .Hair-details-box .Hair-details .Hair-details-center .product-info-right ul li:last-of-type a span {
+                color: #999; }
+                .Hair-details-box .Hair-details .Hair-details-center .product-info-right ul li:last-of-type a span:hover {
+                  color: #2979ff; }
+        .Hair-details-box .Hair-details .Hair-details-center .product-info-right .product-info-bottom {
+          width: 795px;
+          height: 154px;
+          position: relative;
+          background: #f4f5f7;
+          border: 1px solid #ddd;
+          margin-top: 5px;
+          padding: 10px; }
+          .Hair-details-box .Hair-details .Hair-details-center .product-info-right .product-info-bottom p:first-of-type {
+            height: 25px;
+            margin-bottom: 10px; }
+          .Hair-details-box .Hair-details .Hair-details-center .product-info-right .product-info-bottom p:nth-of-type(2) {
+            height: 24px;
+            margin-bottom: 10px; }
+            .Hair-details-box .Hair-details .Hair-details-center .product-info-right .product-info-bottom p:nth-of-type(2) span:last-of-type {
+              background: #fff;
+              padding: 0 5px; }
+          .Hair-details-box .Hair-details .Hair-details-center .product-info-right .product-info-bottom p:nth-of-type(3) {
+            height: 40px;
+            padding: 0 0 0 48px; }
+            .Hair-details-box .Hair-details .Hair-details-center .product-info-right .product-info-bottom p:nth-of-type(3) button {
+              margin-left: 5px; }
+              .Hair-details-box .Hair-details .Hair-details-center .product-info-right .product-info-bottom p:nth-of-type(3) button span:last-of-type {
+                margin-left: 5px; }
+            .Hair-details-box .Hair-details .Hair-details-center .product-info-right .product-info-bottom p:nth-of-type(3) button:first-of-type {
+              width: 121px;
+              height: 40px;
+              background: #d71249;
+              border-radius: 5px; }
+            .Hair-details-box .Hair-details .Hair-details-center .product-info-right .product-info-bottom p:nth-of-type(3) button:last-of-type {
+              width: 121px;
+              height: 40px;
+              background: #2979ff;
+              border-radius: 5px; }
+          .Hair-details-box .Hair-details .Hair-details-center .product-info-right .product-info-bottom p:last-of-type {
+            height: 18px;
+            margin: 5px 0 0 45px; }
+            .Hair-details-box .Hair-details .Hair-details-center .product-info-right .product-info-bottom p:last-of-type span {
+              color: #d71249; }

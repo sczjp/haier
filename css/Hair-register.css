@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/* CSS Document */
+body, h1, h3, h2, h4, h5, h6, p, dl, dd, ul, li, ol, td, form, input, fieldset, legend {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #333; }
+
+body {
+  font-size: 14px;
+  font-family: Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\5b8b体,sans-serif;
+  color: #666; }
+
+* {
+  box-sizing: border-box; }
+
+img {
+  vertical-align: top;
+  display: block;
+  border: none; }
+
+a, input {
+  outline: none; }
+
+em, i {
+  font-style: normal; }
+
+b, strong, h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden; }
+
+table {
+  border-collapse: collapse; }
+
+.border0 {
+  border: none; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.Hair-register-top {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #f2f2f2; }
+  .Hair-register-top .Hair-register-logo {
+    width: 1000px;
+    height: 90px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; }
+    .Hair-register-top .Hair-register-logo a {
+      margin: 0 12px; }
+
+.Hair-register-center {
+  background: url("../images/shop_login_wrap_bg.png") no-repeat 50% 50%;
+  background-attachment: scroll;
+  height: 590px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center; }
+  .Hair-register-center .Hair-register-center-content {
+    width: 1000px;
+    height: 443px;
+    padding: 35px 0 0 510px; }
+    .Hair-register-center .Hair-register-center-content .entry {
+      background: #e8e8e8;
+      padding: 4px;
+      position: relative; }
+      .Hair-register-center .Hair-register-center-content .entry .Hair-register-center-con {
+        width: 490px;
+        height: 400px;
+        border: 1px solid #f2f2f2;
+        background: #fff; }
+        .Hair-register-center .Hair-register-center-content .entry .Hair-register-center-con .Hair-register-center-con-title {
+          width: 488px;
+          height: 63px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0 16px;
+          border-bottom: 1px solid #f2f2f2; }
+          .Hair-register-center .Hair-register-center-content .entry .Hair-register-center-con .Hair-register-center-con-title h2 {
+            font-weight: 900; }
+          .Hair-register-center .Hair-register-center-content .entry .Hair-register-center-con .Hair-register-center-con-title a {
+            color: #005aaa; }
+            .Hair-register-center .Hair-register-center-content .entry .Hair-register-center-con .Hair-register-center-con-title a:hover {
+              text-decoration: underline; }
+        .Hair-register-center .Hair-register-center-content .entry .Hair-register-center-con .Hair-register-form {
+          width: 488px;
+          height: 290px;
+          padding: 50px 80px 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-flow: column; }
+          .Hair-register-center .Hair-register-center-content .entry .Hair-register-center-con .Hair-register-form aside {
+            display: flex; }
+            .Hair-register-center .Hair-register-center-content .entry .Hair-register-center-con .Hair-register-form aside #xing {
+              color: red; }
+            .Hair-register-center .Hair-register-center-content .entry .Hair-register-center-con .Hair-register-form aside #txt {
+              margin-left: 5px;
+              font-size: 12px;
+              margin-right: 20px; }
+            .Hair-register-center .Hair-register-center-content .entry .Hair-register-center-con .Hair-register-form aside article input {
+              width: 211px;
+              height: 30px; }
+            .Hair-register-center .Hair-register-center-content .entry .Hair-register-center-con .Hair-register-form aside article #username {
+              margin-left: 8px; }
+            .Hair-register-center .Hair-register-center-content .entry .Hair-register-center-con .Hair-register-form aside article #pwd {
+              margin-left: 20px; }
+          .Hair-register-center .Hair-register-center-content .entry .Hair-register-center-con .Hair-register-form div {
+            color: #999;
+            font-size: 12px; }
+          .Hair-register-center .Hair-register-center-content .entry .Hair-register-center-con .Hair-register-form #div1 {
+            width: 200px;
+            margin-right: -62px; }
+            .Hair-register-center .Hair-register-center-content .entry .Hair-register-center-con .Hair-register-form #div2 {
+              width: 200px;
+              margin-right: -62px; }
+          .Hair-register-center .Hair-register-center-content .entry .Hair-register-center-con .Hair-register-form #div3 {
+            width: 200px;
+            margin-right: -62px; }
+          .Hair-register-center .Hair-register-center-content .entry .Hair-register-center-con .Hair-register-form #pwdstrong {
+            display: none; }
+            .Hair-register-center .Hair-register-center-content .entry .Hair-register-center-con .Hair-register-form #pwdstrong span {
+              width: 70px;
+              height: 15px;
+              border: 1px solid #ccc;
+              float: left;
+              line-height: 15px;
+              text-align: center; }
+              .Hair-register-center .Hair-register-center-content .entry .Hair-register-center-con .Hair-register-form #pwdstrong span:first-of-type {
+                margin-left: 80px; }
+            .Hair-register-center .Hair-register-center-content .entry .Hair-register-center-con .Hair-register-form #pwdstrong .active {
+              background: green; }
+          .Hair-register-center .Hair-register-center-content .entry .Hair-register-center-con .Hair-register-form .Hair-register-submit {
+            height: 56px;
+            padding: 8px 0; }
+            .Hair-register-center .Hair-register-center-content .entry .Hair-register-center-con .Hair-register-form .Hair-register-submit a {
+              display: block;
+              background: #32beff;
+              border-radius: 4px; }
+              .Hair-register-center .Hair-register-center-content .entry .Hair-register-center-con .Hair-register-form .Hair-register-submit a:hover {
+                background: #005aaa; }
+              .Hair-register-center .Hair-register-center-content .entry .Hair-register-center-con .Hair-register-form .Hair-register-submit a b {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 320px;
+                height: 40px;
+                font-size: 15px;
+                color: #fff; }
